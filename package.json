@@ -1,11 +1,12 @@
 {
   "name": "@DevaPandiyan/reactdevtest",
-  "version": "0.0.3",
+  "version": "0.0.7",
   "type": "module",
   "description": "Sample Test For React Devaplugin",
   "scripts": {
     "prebuild": "rimraf dist",
-    "devrollup": "rollup -c "
+    "devrollup": "rollup -c ",
+    "publish": "npm publish --access public"
   },
   "author": "Devapandiyan",
   "license": "ISC",
@@ -27,6 +28,7 @@
   "types": "dist/index.d.ts",
   "publishConfig": {
     "registry": "https://www.npmjs.com/~devapandiyan"
+   
   },
   "dependencies": {
     "tslib": "^2.6.1"
